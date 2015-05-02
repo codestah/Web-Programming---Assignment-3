@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+/* Layout (global rules for all sizes)
+================================================== */
+
+body {margin: 0; padding: 0;}
+
+
+header a.members {
+	color: #f5a06e;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	margin: 0 10px 0px 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: .9em;
+
+}
+
+header a:hover {color: #fff;}
+
+header {
+	height: 275px;
+	background: url(../img/banner_large.jpg) no-repeat right 0px;
+}
+
+
+/* Large Screen Layout
+================================================== */
+article {padding: 80px 50px 10px 50px; }
+
+.promo_container {padding: 0px 0px 15px 20px;}
+.promo_container .promo {width: 33%; float: left; background-position: 0px 3px;}
+.promo_container .promo .content {padding: 0px 30px 0px 70px;}
+
+/* Movie List
+================================================== */
+.movieList{padding: 0px 0px 15px 20px;}
+.movieList .movie {float: left; background-position: 0px 15px;}
+.movieList .movie .content {padding: 15px 30px 0px 150px;}
+
+
+/* Columns
+================================================== */
+.col{padding: 0px 0px 15px 20px;}
+.col.one{width: 290px; float: left; background-position: 12px 12px;}
+.col.two{width: 290px; float: left; background-position: 12px 12px;}
+.col.three{width: 290px; float: left; background-position: 12px 12px;}
+.col.four{width: 290px; float: left; background-position: 12px 12px;}
+.col.five{width: 290px; float: left; background-position: 12px 12px;}
+.col.six{width: 290px; float: left; background-position: 12px 12px;}
+
+/* Navigation
+================================================== */
+nav {
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: #601617;
+	margin: 0 auto 0 auto;
+	float: left;
+}
+
+nav {top: 274px; }
+nav a {margin: 12px 0px 10px 20px;}
+
+@media screen and (max-width:990px){
+	footer {padding-left: 20px; padding-bottom: 50px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

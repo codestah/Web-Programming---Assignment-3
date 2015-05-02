@@ -1,0 +1,552 @@
+@charset "UTF-8";
+
+
+/* #Color Palette
+===================================================
+#601617 	Blood Red
+#eae8e9 	Light Grey
+#515673		Purple Footer
+
+#7a4143 	Red Button Highlight
+#601617 	Red Button 
+#601617 	Red Button Hover
+
+*/
+
+
+
+
+
+/* Global Content Formatting and Styles
+===================================================*/
+
+body {
+	color: #000;
+	line-height: 1.5em;
+	font-family: Arial;
+	font-size: 14px;
+	background-color: #000 ;
+}
+
+.page{
+	max-width: 980px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color: #fff;
+}
+
+h1 {font-size: 2em; font-weight: normal; color: #a6430a; margin: 0 0 .5em 0; line-height: 1em;}
+h2 {font-size: 1.7em; margin: 0 0 1em 0;}
+h3 {font-size: 1.5em; margin: 0 0 1em 0;}
+p {margin: 0 0 .75em 0;}
+a {color: #7a4143 ; text-decoration: none;}
+a:hover {color: #f5a06e;}
+
+
+.clear { clear: both; line-height: 1px;}
+
+
+
+/* Footer
+================================================== */
+footer{
+	font-size: .85em;
+	color: #9ba0bd;
+	background-color: #515673;
+	height: 200px;
+}
+
+footer p {
+	 padding-top: 35px;
+	 margin-left: 50px;
+}
+
+footer a {
+	position: absolute;
+	bottom: 80px;
+	right: 250px;
+}
+
+footer a:first-child {
+	position: absolute;
+	bottom: 100px;
+	right: 350px;
+}
+
+
+
+/* Navigation
+================================================== */
+nav {margin-left: 50px;}
+
+nav a {
+	color: #f5a06e;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: .9em;
+}
+
+nav a:hover {color: #fff;}
+
+nav a.onpage {
+	color: #fff;
+}
+
+
+
+/* Promo Sections
+================================================== */
+a.promoLink {
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: .5em 0 .5em 0;
+}
+
+.promo_container {margin-left: 3em; }
+
+.promo h3 {font-size: 1.1em; margin: 0;}
+.promo p {line-height: 1.2em; font-size: .9em; margin-bottom: .5em;}
+
+.promo {background-repeat: no-repeat;}
+.promo.one {background-image: url(../img/promoImageOne.jpg);}
+.promo.two {background-image: url(../img/promoImageTwo.jpg);}
+.promo.three {background-image: url(../img/promoImageThree.jpg);}
+
+
+
+/* Index Page Movie List
+================================================== */
+.movieList {margin-left: 2.2em;}
+.movie {background-repeat: no-repeat;}
+.movie.one {background-image: url(../img/movieCoverOne.jpg);}
+.movie.two {background-image: url(../img/movieCoverTwo.jpg);}
+.movie.three {background-image: url(../img/movieCoverThree.jpg);}
+.movie.four {background-image: url(../img/movieCoverFour.jpg);}
+.movie.five {background-image: url(../img/movieCoverFive.jpg);}
+.movie.six {background-image: url(../img/movieCoverSix.jpg);}
+.movie .content {height: 190px; margin-bottom: 15px;}
+.movie h3 {font-size: 1.1em; margin: 0 10px 0 0px;}
+.movie p {line-height: 1.2em; font-size: .9em; margin: 0 10px 0 0px; margin-bottom: .5em;}
+
+
+.redBlock {
+	margin: auto;
+	width: 880px;
+	height: 45px;
+	background-color: #601617;
+}
+
+.redBlock h3 {
+	color: #fff;
+	padding-top: 0.60em;
+	padding-left: 1em;
+}
+
+.lineBreak {
+	width: 880px;
+	height: 1px;
+	background-color: #000;
+	opacity: 0.20;
+	margin: auto;
+	display: block;
+}
+
+/* Movie Page Movie List Container
+================================================== */
+#movieContainer {margin-top: 5em;}
+
+
+
+
+
+/* 
+The code was generated from CSS Button Generator: http://css3buttongenerator.com/
+but the font-size, radius, padding, hover color and color were all changed.
+================================================== */
+.btn {
+	width: 30px;
+  background: #7a4143;
+  background-image: -webkit-linear-gradient(top, #7a4143, #601617);
+  background-image: -moz-linear-gradient(top, #7a4143, #601617);
+  background-image: -ms-linear-gradient(top, #7a4143, #601617);
+  background-image: -o-linear-gradient(top, #7a4143, #601617);
+  background-image: linear-gradient(to bottom, #7a4143, #601617);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 8px 5px 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+}
+
+.btn:hover {
+  background: #f5a06e;
+  text-decoration: none;
+}
+
+.btnMoreInfo {
+	width: 43px;
+	height: 15px;
+  background: #7a4143;
+  background-image: -webkit-linear-gradient(top, #7a4143, #601617);
+  background-image: -moz-linear-gradient(top, #7a4143, #601617);
+  background-image: -ms-linear-gradient(top, #7a4143, #601617);
+  background-image: -o-linear-gradient(top, #7a4143, #601617);
+  background-image: linear-gradient(to bottom, #7a4143, #601617);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 0.9em;
+  padding: 7px 10px 7px 7px;
+  margin-right: 10px;
+  margin-top: 3px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+}
+
+.btnMoreInfo:hover {
+  background: #f5a06e;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+/* Contact Page & Form
+================================================== */
+
+.contactcontainer{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+
+.contactcontainer h3{position: relative; top: 75px; left: 240px;}
+
+
+form{
+	margin-left: 300px;
+	padding-top: 130px;
+	padding-bottom: 100px;
+}
+
+
+select {width: 355px;}
+
+option {font-size: 1em; padding: 1em;}
+
+input[type="text"] {
+    width: 350px;
+    height: 25px;
+    display: block;
+    background-color: white;
+    font-size: 1em;
+}
+
+textarea {width: 350px;font-size: 1em;}
+
+input[type="submit"] {
+	display: block;
+	background-color: #601617;
+	color: #fff;
+	border-radius: 3px;
+	border: 0;
+	width: 70px;
+	height: 30px;
+	margin-top: 8px;
+	float: right;
+}
+
+
+
+/* #Columns
+================================================== */
+.col {
+	background-color: #fff;
+	height: auto;
+	float: left;
+	max-width: 286px;
+	margin-top: 5px;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.col.one {background-image: url(../img/movieCoverTwo.jpg); margin-bottom: 5px;}
+.col.two {background-image: url(../img/movieCoverOne.jpg); margin-bottom: 5px;}
+.col.three {background-image: url(../img/movieCoverThree.jpg); margin-bottom: 5px;}
+.col.four {background-image: url(../img/movieCoverFour.jpg); margin-bottom: 5px;}
+.col.five {background-image: url(../img/movieCoverFive.jpg); margin-bottom: 5px;}
+.col.six {background-image: url(../img/movieCoverSix.jpg); margin-bottom: 5px;}
+
+/* Row 1 Col 1
+================================================== */
+.col.one {display: block;}
+
+.col.one h3 {
+	margin: 0 10px 0 135px;
+	color: black;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	padding-top: 18px;
+} 
+
+.col.one p {line-height: 1.2em; font-size: .8em; margin: 0 10px 0 135px; margin-bottom: .5em;}
+.col.one img {padding-left: 135px;}
+.col.one .btnMoreInfo {color: #fff;}
+
+
+/* Row 1 Col 2
+================================================== */
+.col.two {display: block;}
+.col.two h3 {
+	margin: 0 10px 0 135px;
+	color: black;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 0.9em;
+	padding-top: 18px;
+} 
+
+.col.two p {line-height: 1.2em; font-size: .8em; margin: 0 10px 0 135px; margin-bottom: .5em;}
+.col.two img {padding-left: 135px;}
+.col.two .btnMoreInfo {color: #fff;}
+
+/* Row 1 Col 3
+================================================== */
+.col.three {display: block;}
+.col.three h3 {
+	margin: 0 10px 0 135px;
+	color: black;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	padding-top: 18px;
+} 
+
+.col.three p {line-height: 1.2em; font-size: .8em; margin: 0 10px 0 135px; margin-bottom: .5em;}
+.col.three img {padding-left: 135px;}
+.col.three .btnMoreInfo {color: #fff;}
+
+
+
+/* ROW 2 Col 4
+================================================== */
+.col.four {display: block;}
+.col.four h3 {
+	margin: 0 10px 0 135px;
+	color: black;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	padding-top: 18px;
+} 
+
+.col.four p {line-height: 1.2em; font-size: .8em; margin: 0 10px 0 135px; margin-bottom: .5em;}
+.col.four img {padding-left: 135px;}
+.col.four .btnMoreInfo {color: #fff;}
+
+/* ROW 2 Col 5
+================================================== */
+.col.five {display: block;}
+.col.five h3 {
+	margin: 0 10px 0 135px;
+	color: black;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 0.8em;
+	padding-top: 18px;
+} 
+
+.col.five p {line-height: 1.2em; font-size: .8em; margin: 0 10px 0 135px; margin-bottom: .5em;}
+.col.five img {padding-left: 135px;}
+.col.five .btnMoreInfo {color: #fff;}
+
+/* ROW 2 Col 6
+================================================== */
+.col.six {display: block;}
+.col.six h3 {
+	margin: 0 10px 0 135px;
+	color: black;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	padding-top: 18px;
+} 
+
+.col.six p {line-height: 1.2em; font-size: .8em; margin: 0 10px 0 135px; margin-bottom: .5em;}
+.col.six img {padding-left: 135px;}
+.col.six .btnMoreInfo {color: #fff;}
+
+
+
+/* #Tabs JQuery
+================================================== */
+#tabs {height: auto; width: 970px; background-color: #fff; border: 0px;}
+#tabs ul li {color: #f5a06e; font-size: 0.9em;}
+
+.ui-state-focus:focus { outline:1px dotted red !important }
+
+.ui-tabs {border: 0px;}
+.ui-tabs .ui-tabs-nav:focus {visibility: hidden;}
+.ui-tabs .ui-tabs-nav {background: #fff; border: 0px;} 
+.ui-tabs .ui-tabs-nav li a{background: lightgrey;} 
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {background-color: #fff; color:#f5a06e;}
+
+
+/*#Dialog Global
+================================================== */
+.ui-dialog-titlebar {display:none;}
+.ui-widget-content {border: 0;}
+.ui-dialog {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	outline: 0;
+}
+.ui-widget-overlay.ui-front {background: #000; border: 0;} /* not working */
+
+/*#Dialog 2 Info JQuery
+================================================== */
+#dialog {margin: 0; padding:50px; font-size: 0.9em; line-height: 1.5em;}
+#dialog img {float: left;  padding-right: 20px; padding-bottom: 8px;}
+#dialog h3 p {padding-left: 20px; font-size: .6em; color: #fff;}
+#dialog a {color: #f5a06e;}
+#dialog a:hover {color: #fff;}
+
+
+/* #Dialog 2 Times JQuery
+================================================== */
+#dialog2 {margin: 0; padding: 0; font-size: 0.9em;}
+#dialog2 h3 {margin: 0; padding: 20px; background-color: #2f3242; color: #fff; text-transform: uppercase;}
+#dialog2 h2 {margin: 0; padding: 20px; background-color: #2f3242; color: #fff; text-transform: uppercase;}
+#dialog2 a {color: #f5a06e;}
+#dialog2 a:hover {color: #fff;}
+
+
+/* #Dialog 3 Info JQuery
+================================================== 
+#dialog3 {margin: 0; padding: 0; font-size: 0.9em;}
+#dialog3 h3 {margin: 0; padding: 20px; background-color: #2f3242; color: #fff; text-transform: uppercase;}
+#dialog3 h2 {margin: 0; padding: 20px; background-color: #2f3242; color: #fff; text-transform: uppercase;}
+#dialog3 a {color: #f5a06e;}
+#dialog3 a:hover {color: #fff;}*/
+
+
+/* #Dialog 2 Buttons JQuery
+================================================== */
+#backTime {float: right; margin-top: 20px; padding:5px; width: 60px;}
+#backTicket {float: right; margin-top: 20px; padding:5px; width: 60px;}
+#cart {float: right; margin-top: 20px; padding:5px; width: 60px;}
+#cancel {float: right; margin-right: 20px; margin-top: 20px; padding:5px; width: 60px;}
+#purchase {float: right; margin-top: 20px; padding:5px; width: 60px;}
+
+/* #Dialog 2 Inner Divs JQuery
+================================================== */
+
+
+#subTotalCart{display: none;}
+.chooseTicket {margin-left: 150px; padding: 6px; background-color: #601617; border-radius: 3px; width: 10px; text-transform: uppercase;}
+.chooseTicket a:hover {color: #fff;}
+
+.session ul {margin: 0 auto; padding: 0; padding-left: 10px; width: 350px;}
+.session li {margin: 0; padding: 8px; line-height: 30px; list-style-type: none; width: 100%;}
+.session li:hover {background-color: #eae8e9; width:350px;}
+
+.session li .day {display: inline-block; width: 100px;}
+.session li .time {}
+
+#chooseTime {margin: 0; display: none; width: 100%; margin-bottom: 10px;}			
+#chooseTime table {width: 100%;}				
+#chooseTime table th td {padding: 5px; font-size: 13px;}			
+#chooseTime td input{display: none;}		
+#chooseTime .qty{width: 50px; display: block; padding: 5px;}				
+#chooseTime tbody td {padding-left: 20px; width: 150px; background-color: #eae8e9; height: 35px;}				
+#chooseTime tbody td:first-child{ padding-left: 45px; font-weight: bold;}
+#chooseTime tbody td:last-child{ padding-left: 15px;}	
+
+#subTotalCart {margin: 0; display: none; width: 100%; margin-bottom: 10px;}			
+#subTotalCart table {width: 100%;}				
+#subTotalCart table th td {padding: 5px; font-size: 13px;}			
+#subTotalCart td input{display: none;}		
+#subTotalCart .qty{width: 50px; display: block; padding: 5px;}				
+#subTotalCart tbody td {padding-left: 20px; width: 150px; background-color: #eae8e9; height: 35px;}				
+#subTotalCart tbody td:first-child{ padding-left: 45px; font-weight: bold;}
+#subTotalCart tbody td:last-child{ padding-left: 15px;}
+
+/* #Dialog Form JQuery
+================================================== */
+td input{display: block;}
+			
+form{display: flex; flex-flow: column wrap; margin: 0px;}
+			
+section{padding: 0 0 10px; color: #333;}
+			
+section > div{padding: 10px; width: 100%;}
+			
+section table{ width: 100%;}
+			
+#booking{margin: 0; display: none; width: 100%; margin-bottom: 10px;}			
+#booking table{width: 100%;}				
+#booking table th td {padding: 5px; font-size: 13px;}			
+#booking td input{display: none;}		
+#booking .qty{width: 50px; display: block; padding: 5px;}				
+#booking tbody td {padding-left: 20px; background-color: #eae8e9; height: 35px;}				
+#booking tbody td:first-child{ padding-left: 15px; font-weight: bold;}
+#booking tbody td:last-child{ padding-left: 15px;}
+		
+#screeningInfo{order: 2;}
+
+#quantityError {display: none;}
+
+#searchBox {display: block; float: left;}
+
+.standardLeft {width: 20px; height: 20px; background-color: #7a4143;}
+			
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
