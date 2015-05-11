@@ -1,5 +1,3 @@
-<?php echo
-
 {
 		"AF":{
 		"title":"Reservoir Dogs",
@@ -61,5 +59,3 @@
 
 		"sessions":{"Wednesday":"9pm","Thursday":"9pm","Friday":"9pm","Saturday":"9pm","Sunday":"9pm"}}
 }
-
-?>

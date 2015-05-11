@@ -6,7 +6,7 @@
 <div id="movieGrid">
 <h3 id="showing">Now Showing</h3>
 
-<? php echo $_SERVER['SERVER_NAME']; ?>
+http://<? php echo $_SERVER['SERVER_NAME']; ?>/s3465614/wp/a3/php/movie-service.php
 <!-- http://jupiter.csit.rmit.edu.au/~s3465614/wp/a3/php/movie-service.php -->
 <!-- What do I do with this link?? -->
 
@@ -50,7 +50,9 @@
 				</div>
 			
 				<div class="col two">
-					<h3>Alice in Wonderland</h3>
+					<h3><?php foreach($movie):
+					echo '<h3>'.$movie['title'].'</h2>';
+					endforeach; ?></h3>
 					<p>Rated PG</p>
 					<img src="img/ratingSml.png" width="100" height="20" alt="This movie has a three star rating" />
 					<p>Directors: <a class="promoLink" href="">Peter Jackson</a></p>
