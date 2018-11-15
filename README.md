@@ -2,4 +2,8 @@
 First Push
 
 
-This is Assignment 3 for Web Programming at RMIT, Melbourne, Australia.
+The project was based on creating a website for Silverado Cinemas. It required a ticket booking system which allocated seating and handled transactions for Web Programming at RMIT, Melbourne, Australia 2015.
+
+## Team members
+
+* Peta Costello
